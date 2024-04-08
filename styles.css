@@ -22,3 +22,40 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+body {
+  background-color: var(--mainBG);
+}
+.card {
+  background-color: var(--cardBG);
+  width: ;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  size: 0.3rem;
+  margin: 0 auto;
+}
+.img-wrapper {
+  padding: 0 auto;
+}
+#name {
+  color: var(--White);
+  text-align: center;
+}
+#location {
+  color: var(--locationColor);
+  text-align: center;
+}
+#about {
+  color: var(--White);
+  text-align: center;
+}
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  background-color: var(--buttonColor);
+  margin: 0.5rem;
+  color: var(--White);
+}
