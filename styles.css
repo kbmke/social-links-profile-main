@@ -27,36 +27,36 @@ body {
 }
 .card {
   background-color: var(--cardBG);
-  width: 20rem;
+  width: 18rem;
   position: relative;
   height: 30rem;
   margin: 0 auto;
   border-radius: 0.5rem;
   display: flex;
+  border: 1px solid blue;
 }
 
 #profile-pic {
   border-radius: 50%;
-  width: 9rem;
-  margin: 2rem auto;
-  position: relative;
+  width: 5rem;
+  margin: 1.2rem auto;
 }
 
 .img-wrapper {
   margin: 0 auto;
-  width: ;
 }
 
-.info {
+/* .info {
   border: 1px solid red;
   margin: 0 auto;
   width: 20rem;
-}
+  display: ;
+} */
 
 #name {
   color: var(--White);
   text-align: center;
-  display: ;
+
   /* position: relative; */
   /* border: 1px solid red; */
 }
