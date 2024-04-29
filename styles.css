@@ -27,21 +27,40 @@ body {
 }
 .card {
   background-color: var(--cardBG);
-  width: ;
+  width: 20rem;
+  position: relative;
+  height: 30rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  display: flex;
 }
 
 #profile-pic {
   border-radius: 50%;
-  size: 0.3rem;
-  margin: 0 auto;
+  width: 9rem;
+  margin: 2rem auto;
+  position: relative;
 }
+
 .img-wrapper {
-  padding: 0 auto;
+  margin: 0 auto;
+  width: ;
 }
+
+.info {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 20rem;
+}
+
 #name {
   color: var(--White);
   text-align: center;
+  display: ;
+  /* position: relative; */
+  /* border: 1px solid red; */
 }
+
 #location {
   color: var(--locationColor);
   text-align: center;
@@ -52,10 +71,20 @@ body {
 }
 ul {
   text-align: center;
+  width: 15rem;
+  margin: 0 auto;
 }
 li {
+  border: 1px solid greenyellow;
   list-style-type: none;
   background-color: var(--buttonColor);
-  margin: 0.5rem;
+  margin: 0.5rem auto;
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* align-items: center; */
+  /* text-align: center; */
   color: var(--White);
+  width: 15rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
 }
