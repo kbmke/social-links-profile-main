@@ -40,22 +40,26 @@ body {
   border-radius: 50%;
   width: 5rem;
   margin: 1.2rem auto;
+  position: absolute;
 }
 
 .img-wrapper {
   margin: 0 auto;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 6rem;
 }
 
-/* .info {
-  border: 1px solid red;
-  margin: 0 auto;
-  width: 20rem;
-  display: ;
-} */
+.info {
+  margin: 7.5rem auto;
+  width: 12rem;
+  display: flexbox;
+}
 
 #name {
   color: var(--White);
   text-align: center;
+  font-size: 1.2rem;
 
   /* position: relative; */
   /* border: 1px solid red; */
@@ -64,10 +68,12 @@ body {
 #location {
   color: var(--locationColor);
   text-align: center;
+  font-size: 1rem;
 }
 #about {
   color: var(--White);
   text-align: center;
+  font-size: 1rem;
 }
 ul {
   text-align: center;
