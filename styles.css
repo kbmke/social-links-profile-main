@@ -51,9 +51,13 @@ body {
 }
 
 .info {
-  margin: 7.5rem auto;
-  width: 12rem;
+  margi
+                                                                               
+                            n: 7.5rem auto;
+  width: 15rem;
   display: flexbox;
+  border: 1px solid red;
+
 }
 
 #name {
@@ -62,7 +66,6 @@ body {
   font-size: 1.2rem;
 
   /* position: relative; */
-  /* border: 1px solid red; */
 }
 
 #location {
@@ -73,7 +76,8 @@ body {
 #about {
   color: var(--White);
   text-align: center;
-  font-size: 1rem;
+  font-size: .7rem;
+  font-weight: 100;
 }
 ul {
   text-align: center;
